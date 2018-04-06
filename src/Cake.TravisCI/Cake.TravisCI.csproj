@@ -6,7 +6,7 @@
     <Summary>Cake addin that extends the DSL with TravisCI aliases</Summary>
     <PackageTags>cake, travisCI</PackageTags>
     <Title>Cake.TravisCI</Title>
-    <DebugType>full</DebugType> 
+    <DebugType>full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
