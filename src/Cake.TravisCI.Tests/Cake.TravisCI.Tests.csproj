@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <DebugType>full</DebugType> 
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Cake.TravisCI\Cake.TravisCI.csproj" />
+    <ProjectReference Include="..\..\src\Cake.TravisCI\Cake.TravisCI.csproj" />
   </ItemGroup>
 
 </Project>

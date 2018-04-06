@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>net46;netstandard2.0</TargetFrameworks>
+    <Owners>RLittles</Owners>
+    <Summary>Cake addin that extends the DSL with TravisCI aliases</Summary>
+    <PackageTags>cake, travisCI</PackageTags>
+    <Title>Cake.TravisCI</Title>
+    <DebugType>full</DebugType> 
   </PropertyGroup>
 
   <ItemGroup>
