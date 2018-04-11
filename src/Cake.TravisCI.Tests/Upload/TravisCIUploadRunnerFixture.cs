@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Cake.Core.IO;
-using Cake.TravisCI.Upload;
 
 namespace Cake.TravisCI.Tests.Upload
 {

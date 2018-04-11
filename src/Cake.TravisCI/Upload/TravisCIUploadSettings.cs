@@ -4,14 +4,16 @@ using Cake.Core.Tooling;
 
 namespace Cake.TravisCI
 {
+    /// <inheritdoc />
     /// <summary>
-    /// <see cref="ToolSettings"/> for TravisCI artifact upload.
+    /// <see cref="T:Cake.Core.Tooling.ToolSettings" /> for TravisCI artifact upload.
     /// </summary>
-    /// <remarks> Documentation: https://github.com/travis-ci/artifacts/blob/master/USAGE.md </remarks>
-    /// <seealso cref="ToolSettings" />
+    /// <seealso cref="T:Cake.Core.Tooling.ToolSettings" />
     public class TravisCIUploadSettings : ToolSettings
     {
+        /// <inheritdoc />
         public TravisCIUploadSettings() { EnvironmentVariables = new Dictionary<string, string>(); }
+
         /// <summary>
         /// Gets or sets the  log output format (text, json, or multiline).
         /// </summary>

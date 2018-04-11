@@ -1,17 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
 
-namespace Cake.TravisCI.Upload
+namespace Cake.TravisCI
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Executes the TravisCI Artifacts command line tool.
+    /// </summary>
+    /// <seealso cref="!:Cake.Core.Tooling.Tool{Cake.TravisCI.TravisCIUploadSettings}" />
     public class TravisCIUploadRunner : Tool<TravisCIUploadSettings>
     {
         private readonly ICakeEnvironment _environment;
 
+        /// <inheritdoc />
         public TravisCIUploadRunner(IFileSystem fileSystem,
             ICakeEnvironment environment,
             IProcessRunner processRunner,
@@ -19,6 +24,7 @@ namespace Cake.TravisCI.Upload
         {
         }
 
+        /// <inheritdoc />
         public TravisCIUploadRunner(IFileSystem fileSystem,
             ICakeEnvironment environment,
             IProcessRunner processRunner,
@@ -27,6 +33,10 @@ namespace Cake.TravisCI.Upload
             _environment = environment;
         }
 
+        /// <summary>
+        /// Uploads the specified settings.
+        /// </summary>
+        /// <param name="settings">The settings.</param>
         public void Upload(TravisCIUploadSettings settings) => Run(settings, BuildArguments(settings));
 
         private ProcessArgumentBuilder BuildArguments(TravisCIUploadSettings settings)
@@ -234,8 +244,10 @@ namespace Cake.TravisCI.Upload
             return builder.RenderSafe();
         }
 
+        /// <inheritdoc />
         protected override string GetToolName() => "artifacts";
 
+        /// <inheritdoc />
         protected override IEnumerable<string> GetToolExecutableNames() => new[] {"artifacts"};
     }
 }
