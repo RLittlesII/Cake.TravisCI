@@ -1,6 +1,5 @@
 issue-labels-include:
-- Breaking change
-- Feature
+- enhancement
 - Bug
 - Improvement
 - Documentation
