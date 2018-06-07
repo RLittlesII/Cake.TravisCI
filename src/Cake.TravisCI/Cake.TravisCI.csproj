@@ -14,9 +14,10 @@
     <PackageLicenseUrl>https://github.com/RLittlesII/Cake.TravisCI/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/RLittlesII/Cake.TravisCI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/RLittlesII/Cake.TravisCI</RepositoryUrl>
+    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cake.Common" Version="0.26.1" />
-    <PackageReference Include="Cake.Core" Version="0.26.1" />
+    <PackageReference Include="Cake.Common" Version="0.28.0" />
+    <PackageReference Include="Cake.Core" Version="0.28.0" />
   </ItemGroup>
 </Project>
