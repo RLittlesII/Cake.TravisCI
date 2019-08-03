@@ -9,6 +9,7 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "cake-contrib",  
                             repositoryName: "Cake.TravisCI",  
                             appVeyorAccountName: "cakecontrib",
+                            shouldRunInspectCode: false,
                             shouldRunDupFinder: false,
                             shouldRunCodecov: false,
                             shouldRunDotNetCorePack: true);

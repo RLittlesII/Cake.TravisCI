@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Owners>RLittles</Owners>
+    <Owners>RLittlesII</Owners>
     <Summary>Cake addin that extends the DSL with TravisCI aliases</Summary>
     <PackageTags>cake travisci build</PackageTags>
     <Title>Cake.TravisCI</Title>
@@ -17,7 +17,7 @@
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cake.Common" Version="0.33.0" PrivateAssets="All" />
-    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Common" Version="0.34.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Core" Version="0.34.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>
