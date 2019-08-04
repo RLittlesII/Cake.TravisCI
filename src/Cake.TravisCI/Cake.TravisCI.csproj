@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Owners>RLittles</Owners>
+    <Owners>RLittlesII</Owners>
     <Summary>Cake addin that extends the DSL with TravisCI aliases</Summary>
     <PackageTags>cake travisci build</PackageTags>
     <Title>Cake.TravisCI</Title>
     <DebugType>full</DebugType>
-    <Authors>RLittlesII</Authors>
+    <Authors>RLittlesII, cake-contrib</Authors>
     <Company>RLittlesII</Company>
     <Description>Cake add in that extends Cake with support for TravisCI.</Description>
     <Version>0.0.0</Version>
@@ -14,10 +14,10 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/cake-contrib/Cake.TravisCI/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.TravisCI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.TravisCI</RepositoryUrl>
-    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>
+    <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cake.Common" Version="0.33.0" PrivateAssets="All" />
-    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Common" Version="0.34.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Core" Version="0.34.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>

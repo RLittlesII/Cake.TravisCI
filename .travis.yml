@@ -7,13 +7,13 @@ os:
 sudo: required
 dist: trusty
 
-# OS X 10.12
-osx_image: xcode9.2
+# macOS 10.14
+osx_image: xcode11
 
 mono:
-  - 4.4.2
+  - 5.20.1
 
-dotnet: 2.1.4
+dotnet: 2.1.101
   
 script:
   - ./build.sh --verbosity diagnostic
