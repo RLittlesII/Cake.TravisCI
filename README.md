@@ -15,4 +15,4 @@ Cake addin that extends Cake with support for Homebrew.
 |NuGet|[![NuGet](https://img.shields.io/nuget/v/Cake.TravisCI.svg)](https://www.nuget.org/packages/Cake.TravisCI)
 
 ## Code Coverage
-[![Coverage Status](https://coveralls.io/repos/github/RLittlesII/Cake.TravisCI/badge.svg?branch=dev)](https://coveralls.io/github/cake-contrib/Cake.TravisCI?branch=dev)
+[![Coverage Status](https://coveralls.io/repos/github/cake-contrib/Cake.TravisCI/badge.svg?branch=dev)](https://coveralls.io/github/cake-contrib/Cake.TravisCI?branch=dev)
