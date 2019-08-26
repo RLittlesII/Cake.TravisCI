@@ -1,6 +1,6 @@
 # Cake.TravisCI
 
-Cake addin that extends Cake with support for Homebrew.
+Cake addin that extends Cake with support for TravisCI.
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://raw.githubusercontent.com/cake-contrib/Cake.TravisCI/master/LICENSE)
 
